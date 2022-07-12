@@ -1,9 +1,9 @@
 import './App.css';
-import AddPresenceHeader from './components/addSection';
+import Menu from './components/menu';
 
 function App() {
   return (
-    <AddPresenceHeader/>
+    <Menu/>
   );
 }
 

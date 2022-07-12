@@ -4,3 +4,13 @@
   border: 0;
 }
 
+body, input, button {
+  font-family: 'Poppins', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
