@@ -52,6 +52,7 @@
     width: 60%;
     min-height: 100px;
     min-width: 600px;
+    background-color: rgb(173, 173, 173);
     border-left: 5px rgb(173, 173, 173) solid;
     border-right: 5px rgb(173, 173, 173) solid;
     border-bottom: 5px rgb(173, 173, 173) solid;
