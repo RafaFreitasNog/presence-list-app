@@ -6,6 +6,7 @@ function StudentElement(props) {
         <Fragment>
             <div id="listElement">
                 <h2 id="name">{props.name}</h2>
+                <h2 id="time">{props.time}</h2>
             </div>
         </Fragment>
     )

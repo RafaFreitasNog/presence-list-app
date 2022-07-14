@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 #addConteiner {
@@ -17,8 +18,8 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 300px;
-    border-left: 5px rgb(173, 173, 173) double;
-    border-right: 5px rgb(173, 173, 173) double;
+    border-left: 5px rgb(173, 173, 173) solid;
+    border-right: 5px rgb(173, 173, 173) solid;
 }
 
 #title {
@@ -51,7 +52,7 @@
     width: 60%;
     min-height: 100px;
     min-width: 600px;
-    border-left: 5px rgb(173, 173, 173) double;
-    border-right: 5px rgb(173, 173, 173) double;
+    border-left: 5px rgb(173, 173, 173) solid;
+    border-right: 5px rgb(173, 173, 173) solid;
     border-bottom: 5px rgb(173, 173, 173) solid;
 }
