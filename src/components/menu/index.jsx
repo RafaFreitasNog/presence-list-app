@@ -21,6 +21,11 @@ function Menu() {
         setStudentList(prevState => [...prevState, studentToAdd])
     }
 
+    function handleRemoveStudent(deletedStudent) {
+        console.log(deletedStudent)
+        setStudentList(studentList.filter((element) => element.name !== deletedStudent))
+    }
+
     return (
         <Fragment>
             <div id="conteiner1">
@@ -42,8 +47,15 @@ function Menu() {
 
                 <div id="listConteiner">
                     <StudentElement name={studentName}/>
+
                     {studentList.map((element)=>
-                    <StudentElement name = {element.name} present = {element.present} time = {element.time} />)}
+                    <StudentElement 
+                    key = {element.time}
+                    name = {element.name} 
+                    present = {element.present} 
+                    time = {element.time} 
+                    handleRemoveStudent = {() => handleRemoveStudent(element.name)}
+                    />)}
                 </div>
             </div>
         </Fragment>
