@@ -18,7 +18,7 @@ function Menu() {
             })
         }
 
-        setStudentList(prevState => [...prevState, studentToAdd])
+        setStudentList(prevState => [studentToAdd, ...prevState])
     }
 
     function handleRemoveStudent(deletedStudent) {
@@ -46,8 +46,6 @@ function Menu() {
                 </div>
 
                 <div id="listConteiner">
-                    <StudentElement name={studentName}/>
-
                     {studentList.map((element)=>
                     <StudentElement 
                     key = {element.time}
