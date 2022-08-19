@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/presence-list-app/static/css/main.c1b841ac.css",
+    "main.js": "/presence-list-app/static/js/main.1e164503.js",
+    "index.html": "/presence-list-app/index.html",
+    "main.c1b841ac.css.map": "/presence-list-app/static/css/main.c1b841ac.css.map",
+    "main.1e164503.js.map": "/presence-list-app/static/js/main.1e164503.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1b841ac.css",
+    "static/js/main.1e164503.js"
+  ]
+}
