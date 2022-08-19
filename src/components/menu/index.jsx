@@ -34,7 +34,7 @@ function Menu() {
 
                     <input 
                     type="text" 
-                    placeholder="   Digite o nome do aluno..." 
+                    placeholder="Digite o nome do aluno..." 
                     id="addInput"
                     onChange={e => setStudentName(e.target.value)}></input>
 
