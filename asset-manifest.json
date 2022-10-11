@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/presence-list-app/static/css/main.c1b841ac.css",
-    "main.js": "/presence-list-app/static/js/main.1e164503.js",
+    "main.js": "/presence-list-app/static/js/main.2d6818e9.js",
     "index.html": "/presence-list-app/index.html",
     "main.c1b841ac.css.map": "/presence-list-app/static/css/main.c1b841ac.css.map",
-    "main.1e164503.js.map": "/presence-list-app/static/js/main.1e164503.js.map"
+    "main.2d6818e9.js.map": "/presence-list-app/static/js/main.2d6818e9.js.map"
   },
   "entrypoints": [
     "static/css/main.c1b841ac.css",
-    "static/js/main.1e164503.js"
+    "static/js/main.2d6818e9.js"
   ]
 }
