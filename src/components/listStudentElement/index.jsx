@@ -7,7 +7,7 @@ function StudentElement(props) {
         <Fragment>
             <div id="grid-conteiner">
                 <div id="grid-item1">
-                    <button id="delete-button" onClick={props.handleRemoveStudent}>-</button>
+                    <button id="delete-button" onClick={() => props.handleRemoveStudent(props.time)}>-</button>
                 </div>
                 <div id="grid-item2">
                     <h2 id="name">{props.name}</h2>

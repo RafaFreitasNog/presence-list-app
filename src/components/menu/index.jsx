@@ -21,9 +21,9 @@ function Menu() {
         setStudentList(prevState => [studentToAdd, ...prevState])
     }
 
-    function handleRemoveStudent(deletedStudent) {
-        console.log(deletedStudent)
-        setStudentList(studentList.filter((element) => element.name !== deletedStudent))
+    function handleRemoveStudent(studentToDelete) {
+        console.log(studentToDelete)
+        setStudentList(studentList.filter((element) => element.time !== studentToDelete))
     }
 
     return (
@@ -52,7 +52,7 @@ function Menu() {
                     name = {element.name} 
                     present = {element.present} 
                     time = {element.time} 
-                    handleRemoveStudent = {() => handleRemoveStudent(element.name)}
+                    handleRemoveStudent = {handleRemoveStudent}
                     />)}
                 </div>
             </div>
